@@ -60,7 +60,6 @@
                </rowConstraints>
                <children>
                   <JFXButton buttonType="RAISED" onAction="#showDialog" text="Dialog" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-                  <JFXDatePicker GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
                   <JFXColorPicker GridPane.halignment="CENTER" GridPane.rowIndex="2" />
                   <JFXSlider fx:id="slider" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                      <GridPane.margin>

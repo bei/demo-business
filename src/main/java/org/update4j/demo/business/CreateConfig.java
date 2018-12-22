@@ -11,8 +11,8 @@ import org.update4j.FileMetadata;
 public class CreateConfig {
 
 	public static void main(String[] args) throws IOException {
-		Configuration config = Configuration.builder().baseUri("http://docs.update4j.org/demo/business")
-				.basePath("${user.dir}/business")
+	    Configuration config = Configuration.builder().baseUri("https://agilhard-oss.github.io/demo/business")
+				.basePath("${user.home}/business")
 				.files(FileMetadata.streamDirectory("config")
 						.filter(f -> !f.getSource().toString().endsWith("config.xml")).peek(f -> f.classpath()))
 				.build();

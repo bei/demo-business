@@ -87,3 +87,6 @@ buildNumber.properties
 .classpath
 /.settings/
 /build/
+
+# Emacs Backup files
+*~
