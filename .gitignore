@@ -90,3 +90,5 @@ buildNumber.properties
 
 # Emacs Backup files
 *~
+.#*
+
