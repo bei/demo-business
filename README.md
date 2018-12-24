@@ -1,7 +1,7 @@
 # jpackager-update4j-maven example
 
 Sample Maven Project to use [link-jpackager-maven-plugin](https://github.com/agilhard-oss/jlink-jpackager-maven-plugin)
-and [update4j(https://github.com/update4j/update4j) together
+and [update4j](https://github.com/update4j/update4j) together
 
 ## demo-business
 
