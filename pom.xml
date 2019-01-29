@@ -11,7 +11,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<release>11</release>
+					<release>9</release>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -34,13 +34,13 @@
 		</dependency>
 		<dependency>
 			<groupId>org.jfxtras</groupId>
-			<artifactId>jfxtras-all</artifactId>
+			<artifactId>jfxtras-gauge-linear</artifactId>
 			<version>10.0-r1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.update4j</groupId>
 			<artifactId>update4j</artifactId>
-			<version>1.3.3</version>
+			<version>1.4.0</version>
 		</dependency>
 	</dependencies>
 </project>
