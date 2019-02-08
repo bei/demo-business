@@ -34,6 +34,9 @@ public class JavaFxLauncher implements Launcher {
 
 	private static final Path LOCK_DIR = Paths.get(System.getProperty("user.home"), ".update4j-demo");
 
+	public JavaFxLauncher() {
+	}
+
 	@Override
 	public long version() {
 		return 0;

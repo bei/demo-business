@@ -1,14 +1,17 @@
-# jpackager-update4j-maven example
+# demo-jpacktool-update4j
 
-Sample Maven Project to use [link-jpackager-maven-plugin](https://github.com/agilhard-oss/jlink-jpackager-maven-plugin)
+Sample Maven Project to use [jpacktool-maven-plugin](https://github.com/agilhard-oss/jpacktool/tree/master/jpacktool-maven-plugin)
 and [update4j](https://github.com/update4j/update4j) together
 
 ## demo-business
 
-A Git and Maven Sub-Module of jpackager-update4j-maven example.
+This is the part compiling the update4j Business Application for the demo.
 
-This is the part compiling the business application.
+
+This is a Git and Maven Sub-Module of the demo-jpacktool-update4j example.
 
 Do not checkout this GIT module separatly instead do the following:
 
-git clone --recursive git@github.com:bei/jpackager-update4j-maven-example.git
+git clone --recursive https://github.com/bei/demo-jpacktool-update4j.git
+
+
